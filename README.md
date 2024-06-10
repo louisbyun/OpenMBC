@@ -21,7 +21,7 @@ This guide provides detailed instructions for installing OpenBMC on an Ubuntu 24
   ```bash 
   git clone https://github.com/openbmc/openbmc.git
 
-## Step 3: Build OpenMBC
+**## Step 3: Build OpenMBC**
   ```bash
   cd openbmc
 
