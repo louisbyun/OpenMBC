@@ -8,28 +8,33 @@ This guide provides detailed instructions for installing OpenBMC on an Ubuntu 24
 
 ## Step 1: Install Required Packages
 1. Update the package list:
-   ```bash
+   ```sh
    sudo apt update
+   ```
 
 2. Install the required packages:
-   ```bash
+   ```sh
    sudo apt install -y git build-essential fakeroot debhelper \
    libssl-dev libyaml-dev python3-pip python3-setuptools python3-wheel \
    libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev libarchive-dev
+   ```
 
 ## Step 2: Clone OpenBMC Repository
-  ```bash 
+  ```sh 
   git clone https://github.com/openbmc/openbmc.git
+  ```
 
 ## Step 3: Build OpenMBC
-  ```bash
+  ```sh
   cd openbmc
+  ```
 
 ## Step 4: Flash OpenBMC Image
 1. Flash the OpenBMC image to a USB drive:
   ```bash
   sudo dd if=tmp/deploy/images/am57xx-evm/obmc-phosphor-image-am57xx-evm.wic of=/dev/sdX bs=4M conv=fsync
-Replace /dev/sdX with the appropriate device name for your USB drive.
+  ```
+  Replace /dev/sdX with the appropriate device name for your USB drive.
 
 ## Step 5: Boot OpenBMC
 Insert the USB drive into the target machine.
