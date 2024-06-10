@@ -21,11 +21,11 @@ This guide provides detailed instructions for installing OpenBMC on an Ubuntu 24
   ```bash 
   git clone https://github.com/openbmc/openbmc.git
 
-# Step 3: Build OpenMBC
+## Step 3: Build OpenMBC
   ```bash
   cd openbmc
 
-# Step 4: Flash OpenBMC Image
+## Step 4: Flash OpenBMC Image
 1. Flash the OpenBMC image to a USB drive:
   ```bash
   sudo dd if=tmp/deploy/images/am57xx-evm/obmc-phosphor-image-am57xx-evm.wic of=/dev/sdX bs=4M conv=fsync
