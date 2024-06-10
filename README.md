@@ -12,7 +12,7 @@ This guide provides detailed instructions for installing OpenBMC on an Ubuntu 24
    sudo apt update
 
 2. Install the required packages:
-   ```bash 
+   ```bash
    sudo apt install -y git build-essential fakeroot debhelper \
    libssl-dev libyaml-dev python3-pip python3-setuptools python3-wheel \
    libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev libarchive-dev
