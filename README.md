@@ -13,11 +13,15 @@ This guide provides step-by-step instructions for installing Ubuntu 24.04 LTS (6
    - Hardware: At least 2GB of RAM and a 64-bit x86 architecture
    - Storage: Sufficient storage for your needs
   
-3. sudo apt-get update
+3.```bash
+sudo apt-get update
 sudo apt-get install build-essential git python3
 
-4. sudo apt-get install qemu libssl-dev
-5. sudo apt-get install qemu-system-arm
+5. ```bash
+   sudo apt-get install qemu libssl-dev
+   
+6. ```bash
+   sudo apt-get install qemu-system-arm
 
 
 ## Step 2: Access the Cloud Server Instance
